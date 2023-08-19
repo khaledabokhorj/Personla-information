@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: sans-serif;
+
+}
+.head{
+    width: 700px;
+    margin: 20px auto;
+    background-color: #eee;
+    text-align: center;
+    border-radius: 1% 99% 0% 100% / 68% 0% 100% 32%  ;
+}
+.head h2{
+    padding: 10px 5px;
+}
+form{
+    width: 650px;
+    margin: 20px auto;
+
+}
+fieldset{
+    background-color: #3DC6E3 ;
+    color: white;
+}
+form fieldset legend{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: white;
+    margin-left: 5px;
+    color: black;
+    font-size: 17px;
+
+}
+form fieldset label{
+    text-align: center;
+    display: block;
+    background-color: darkcyan;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    padding: 10px 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+form fieldset input{
+    display: block;
+    margin: auto;
+    background-color: white;
+    width: 50%;
+    padding: 10px 5px;
+    outline: none;
+}
+form fieldset input::placeholder{
+    color: black;
+}
+form fieldset textarea{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 10px 5px;
+}
+form fieldset .button{
+    text-align: center;
+    margin-top: 10px;
+}
+form fieldset .submit,.reset{
+    display: inline-block;
+    width: 167px;
+    border-radius: 10px;
+    color: #3E5151;
+    margin-bottom: 10px;
+}
